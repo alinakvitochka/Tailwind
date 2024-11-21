@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+    <header class="bg-pink-500 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Зоомагазин</h1>
+            <nav class="flex space-x-6">
+                <a href="#home" class="hover:text-gray-300 text-lg">Главная</a>
+                <a href="#products" class="hover:text-gray-300 text-lg">Товары</a>
+                <a href="#contacts" class="hover:text-gray-300 text-lg">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="bg-pink-100 text-center py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-pink-600">Добро пожаловать в наш Зоомагазин!</h2>
+            <p class="mt-4 text-gray-700">Лучшие товары для питомцев с доставкой по всему миру.</p>
+        </div>
+    </section>
+
+    <section id="products" class="bg-gray-50 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-pink-600">Наши товары</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold text-pink-500">Корма</h3>
+                    <p class="mt-2 text-gray-600">Отличные корма для собак и кошек.</p>
+                    <a href="#" class="text-pink-500">Перейти в категорию</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold text-pink-500">Игрушки</h3>
+                    <p class="mt-2 text-gray-600">Игрушки для всех видов питомцев.</p>
+                    <a href="#" class="text-pink-500">Перейти в категорию</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-xl font-semibold text-pink-500">Одежда</h3>
+                    <p class="mt-2 text-gray-600">Модная одежда для питомцев.</p>
+                    <a href="#" class="text-pink-500">Перейти в категорию</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="bg-pink-100 py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-pink-600">Контакты</h2>
+            <form class="mt-6 max-w-lg mx-auto">
+                <input type="text" placeholder="Ваше имя"
+                    class="w-full px-4 py-2 mb-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                <input type="email" placeholder="Ваш email"
+                    class="w-full px-4 py-2 mb-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                <textarea placeholder="Ваше сообщение"
+                    class="w-full px-4 py-2 mb-4 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                <button type="submit"
+                    class="bg-pink-500 text-white py-2 px-6 rounded-lg hover:bg-pink-600">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-pink-500 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>© 2024 Интернет-магазин. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
